@@ -48,8 +48,8 @@ services:
 volumes:
   ctfnote:
     name: ctfnote
+    external: true
   pad-uploads:
     name: pad-uploads
 networks:
   ctfnote:
-    external: true
