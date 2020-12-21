@@ -51,5 +51,6 @@ volumes:
     external: true
   pad-uploads:
     name: pad-uploads
+    external: true
 networks:
   ctfnote:
