@@ -138,7 +138,7 @@ export default {
     }
   },
   data() {
-    const darkMode = localStorage.getItem("darkMode") == "true";
+    const darkMode = localStorage.getItem("darkMode") ?? "true" == "true";
     return {
       leftDrawerOpen: false,
       Rights,
